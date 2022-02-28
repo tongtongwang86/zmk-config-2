@@ -8,24 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&mt {
-    tapping-term-ms = <201>;
-    flavor = "tap-preferred";
- };
 
-
-behaviors {
- en: enter_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ENTER_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-};
 
 
 
@@ -42,7 +25,7 @@ behaviors {
             bindings = <
     &kp Q    &kp W    &kp E    &kp R       &kp T      &bt BT_CLR                        &kp Y       &kp U     &kp I     &kp O        &kp BSPC   
     &kp A    &kp S    &kp D    &kp F       &kp G                                        &kp H       &kp J     &kp K     &kp L        &kp SEMI 
-    &kp Z    &kp X    &kp C    &kp V       &kp B                                        &kp B       &kp N     &kp M     &kp COMMA    &kp DOT     &en FSLH ENTER
+    &kp Z    &kp X    &kp C    &kp V       &kp B                                        &kp B       &kp N     &kp M     &kp COMMA    &kp DOT     &en ENTER
                                &kp LGUI    &kp SPACE                                    &kp SPACE   &kp LSHIFT
             >;
 
