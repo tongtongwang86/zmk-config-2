@@ -8,6 +8,27 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    tapping-term-ms = <201>;
+    flavor = "tap-preferred";
+ };
+
+
+behaviors {
+ ent: enter_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ENTER_MODS";
+            #binding-cells = <18>;
+            tapping-term-ms = <300>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp FSLH>, <&kp ENTER>;
+        };
+
+};
+
+
+
 / {
     keymap {
         compatible = "zmk,keymap";
