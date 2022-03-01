@@ -61,7 +61,7 @@
 //   |    Z    |    X    |    C    |   F3    |   F4    |                                  |  B      |    N    |    M    |     ,   |    .    |  ?   |  
 //                                           | Layer 0 | Layer 0 |                        |  SPACE  |   GUI   |  
             bindings = <
-    &kp F13    &kp F16    &kp F17    &kp F18       &kp F19      &to  DEFAULT               &kp KP_NUMLOCK   &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_MINUS   
+    &kp F13    &kp F16    &kp F17    &kp F18       &kp F19      &to DEFAULT               &kp KP_NUMLOCK   &kp KP_N1    &kp KP_N2    &kp KP_N3    &kp KP_MINUS   
     &kp F20    &kp F21    &kp F22    &kp F23       &kp F24                                 &kp KP_DIVIDE    &kp KP_N4    &kp KP_N5    &kp KP_N6    &kp KP_PLUS 
     &kp F3     &kp F4     &kp V      &kp E         &kp LCTRL                               &kp KP_MULTIPLY  &kp KP_N7    &kp KP_N8    &kp KP_N9    &kp KP_N0     &kp KP_ENTER
                                      &kp LGUI      &kp LALT                                &to DEFAULT      &to DEFAULT
