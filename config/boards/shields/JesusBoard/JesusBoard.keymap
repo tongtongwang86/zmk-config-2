@@ -9,7 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #define DEFAULT 0
 #define LAYR 1
-
+&mt {
+    tapping-term-ms = <201>;
+    flavor = "tap-preferred";
+ };
 
 / {
     keymap {
