@@ -14,7 +14,7 @@
 #define NUM 2
 
 &mt {
-    tapping-term-ms = <150>;
+    tapping-term-ms = <250>;
     flavor = "tap-preferred";
  };
 
