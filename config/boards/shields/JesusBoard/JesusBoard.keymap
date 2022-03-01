@@ -29,7 +29,7 @@
 //   |    Z    |    X    |    C    |    V    |    B    |                                |  B      |    N    |    M    |     ,   |    .    |  ?   |  
 //                                         |   GUI     | SPACE |                        |  SPACE  |   GUI   |  
             bindings = <
-    &mt N1 Q   &mt N2 W   &mt N3 E   &mt N4 R    &mt N5 T     &tog FUNC                       &mt N6 Y    &mt N7 U  &mt N8 I  &mt N9 O         &kp BSPC   
+    &mt N1 Q   &mt N2 W   &mt N3 E   &mt N4 R    &mt N5 T     &to FUNC                       &mt N6 Y    &mt N7 U  &mt N8 I  &mt N9 O         &kp BSPC   
     &mt TAB A  &kp S      &kp D      &kp F       &kp G                                        &kp H       &kp J     &kp K     &mt P L          &mt N0 SEMI 
     &kp Z      &kp X      &kp C      &kp V       &kp B                                        &kp B       &kp N     &kp M     &mt LBKT COMMA   &mt RBKT DOT    &mt FSLH ENTER
                                      &kp LGUI    &kp SPACE                                    &kp SPACE   &kp LSHIFT
@@ -45,9 +45,9 @@
 //   |    Z    |    X    |    C    |    V    |    B    |                                |  B      |    N    |    M    |     ,   |    .    |  ?   |  
 //                                         |   GUI     | SPACE |                        |  SPACE  |   GUI   |  
             bindings = <
-    &kp ESC             &kp C_BRI_DN    &kp C_BRI_UP    &kp C_VOL_DN     &kp C_VOL_UP      &tog NUM                &kp F5          &kp PG_UP      &kp UP           &kp PG_DN        &kp BSPC   
+    &kp ESC             &kp C_BRI_DN    &kp C_BRI_UP    &kp C_VOL_DN     &kp C_VOL_UP      &to NUM                &kp F5          &kp PG_UP      &kp UP           &kp PG_DN        &kp BSPC   
     &kp F6              &kp C_PREV      &kp C_PP        &kp C_NEXT       &kp C_MUTE                               &kp GRAVE       &kp LEFT       &kp DOWN         &kp RIGHT        &kp SEMI 
-    &kp BT_SEL 0        &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                             &mt HASH EXCL   &mt AT CARET   &mt DLLR PRCNT   &mt LPAR RPAR    &mt PLUS MINUS   &mt FSLH ASTRK
+    &bt BT_SEL 0        &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                             &mt HASH EXCL   &mt AT CARET   &mt DLLR PRCNT   &mt LPAR RPAR    &mt PLUS MINUS   &mt FSLH ASTRK
                                                         &bt BT_CLR       &bt BT_CLR                               &to DEFAULT     &to DEFAULT
             >;
 
