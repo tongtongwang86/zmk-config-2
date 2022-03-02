@@ -31,7 +31,7 @@
             bindings = <
     &mt N1 Q   &mt N2 W   &mt N3 E   &mt N4 R    &mt N5 T     &to FUNC                       &mt N6 Y    &mt N7 U  &mt N8 I  &mt N9 O         &kp BSPC   
     &mt TAB A  &kp S      &kp D      &kp F       &kp G                                        &mt APOS K       &kp J     &kp K     &mt P L          &mt N0 SEMI 
-    &kp Z      &kp X      &kp C      &kp V       &kp B                                        &kp B       &kp N     &kp M     &mt LBKT COMMA   &mt RBKT DOT    &mt FSLH ENTER
+    &kp Z      &kp X      &kp C      &kp V       &kp B                                        &kp B       &kp N     &kp M     &mt LBKT COMMA   &mt RBKT DOT    &mt SLASH ENTER
                                      &kp LGUI    &kp SPACE                                    &kp SPACE   &kp LSHIFT
             >;
 
