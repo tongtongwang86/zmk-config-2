@@ -1,0 +1,12 @@
+file_format: "1"
+id: jesus
+name: JesusBoard 
+type: shield
+url: https://github.com/tongtongwang86/zmk-config-2
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - jesus_left
+  - jesus_right
